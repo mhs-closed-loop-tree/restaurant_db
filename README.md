@@ -6,4 +6,4 @@ Normally we'd script the instance setup, db setup and firewall setup here, but t
 manually for expediency.
 
 I've chosen to maintain the same datamodel throughout (as the source data). Though some of the column names are not ideal
-its simpler in the short term to maintain the names. Longer term approach might would be different.
+its simpler in the short term to maintain the names. Longer term approach would be different.
