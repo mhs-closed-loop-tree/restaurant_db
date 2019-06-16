@@ -1,5 +1,3 @@
-# generate the staging table
-
 CREATE TABLE restaurant__staging(
 	camis integer not null,
 	dba varchar(128),
@@ -19,6 +17,7 @@ CREATE TABLE restaurant__staging(
 	grade_date date,
 	record_date date,
 	inspection_type varchar(64),
+	valid integer,
 	line_no integer,
 	load_timestamp timestamp
 );
